@@ -1,5 +1,7 @@
+"""
+Multiplies the given input arguments and prints the result
+"""
 from __future__ import print_function
-import sys
 
 
 def multiplication(a, b, c):
@@ -13,4 +15,4 @@ b = int(input("b "))
 c = int(input("c "))
 
 result = multiplication(a, a, c)
-print(result)
+print('multiplication of given inputs is {}'.format(result))

@@ -1,3 +1,8 @@
+"""
+Counts the most common words
+in a given text.
+"""
+
 from __future__ import print_function
 import re
 from collections import Counter
@@ -10,4 +15,5 @@ s = "Turku is a city on the southwest coast of Finland at the mouth of the Aura 
 # counts the number each time a word appears
 #TODO: type following code "word_counts = Counter(words)" below
 
-print(word_counts)
+
+print('words in given text are {}'.format(dict(word_counts)))
