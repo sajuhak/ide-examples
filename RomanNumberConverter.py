@@ -45,7 +45,7 @@ def test_parsing_half_decade():
     value = RomanNumeralConverter("V")
     assert value.convert_to_decimal() == 5
 
-# FIXME: Test Fails
+
 def test_parsing_one():
     value = RomanNumeralConverter("I")
-    assert value.convert_to_decimal() == 2
+    assert value.convert_to_decimal() == 1
