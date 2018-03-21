@@ -10,9 +10,9 @@ def multiplication(a, b, c):
 
 
 # takes arguments from the command line
-a = int(input("a "))
-b = int(input("b "))
-c = int(input("c "))
+a = int(input("Please input value a: "))
+b = int(input("Please input value b: "))
+c = int(input("Please input value c: "))
 
 result = multiplication(a, a, c)
 print('multiplication of given inputs is {}'.format(result))
