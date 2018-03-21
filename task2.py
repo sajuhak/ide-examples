@@ -14,5 +14,5 @@ a = int(input("Please input value a: "))
 b = int(input("Please input value b: "))
 c = int(input("Please input value c: "))
 
-result = multiplication(a, a, c)
+result = multiplication(a, b, c)
 print('multiplication of given inputs is {}'.format(result))
